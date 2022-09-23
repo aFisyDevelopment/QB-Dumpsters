@@ -44,7 +44,7 @@ exports['qb-target']:AddTargetModel(Dumpsters, {
     options = {
         {
             icon = 'fas fa-dumpster',
-            label = 'Zoek dieper',
+            label = 'Zoeken',
             action = function(entity)
                 TriggerServerEvent('qb-dumpsters:search:check', GetEntityCoords(entity))
             end
