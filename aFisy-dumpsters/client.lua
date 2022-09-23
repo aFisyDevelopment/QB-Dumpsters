@@ -51,7 +51,7 @@ exports['qb-target']:AddTargetModel(Dumpsters, {
         },
         {
             icon = 'fas fa-dumpster',
-            label = 'Gooi iets in de vuilnis',
+            label = 'Gooi iets in het vuil',
             action = function(entity)
                 local DumpsterCoords = GetEntityCoords(entity)
                 if DumpsterCoords.x < 0 then DumpsterX = -DumpsterCoords.x else DumpsterX = DumpsterCoords.x end
