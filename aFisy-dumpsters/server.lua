@@ -3,7 +3,7 @@ local DumpsterSearched = {}
 local PreviousDumpster = {}
 local Cancelled = {}
 local RestartTimer = 15 -- seconds
-local RewardInventory = false -- true = give items inside of an inventory box, false = give item directly
+local RewardInventory = true -- true = give items inside of an inventory box, false = give item directly
 local Loot = {
     ['tier1'] = {
         'plastic',
